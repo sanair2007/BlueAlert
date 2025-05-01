@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BlueAlert for X.com
 // @namespace    none
-// @version      1.2
+// @version      1.3
 // @description  https://github.com/sanair2007/BlueAlert/
 // @author       sanair2007
 // @match        https://x.com/*
@@ -11,6 +11,8 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=twitter.com
 // @grant        none
 // @license      MIT
+// @downloadURL https://update.greasyfork.org/scripts/534596/BlueAlert%20for%20Xcom.user.js
+// @updateURL https://update.greasyfork.org/scripts/534596/BlueAlert%20for%20Xcom.meta.js
 // ==/UserScript==
 
 function markVerifiedContainers() {
