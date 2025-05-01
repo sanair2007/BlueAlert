@@ -2,10 +2,12 @@
 // @name         BlueAlert for X.com
 // @namespace    none
 // @version      1.2
-// @description  Clearly highlight any content from verified (blue tick) accounts on Twitter/X — tweets, replies, QRTs, suggestions, etc. — with a solid red background on their outer container only.
-// @author       You
+// @description  https://github.com/sanair2007/BlueAlert/
+// @author       sanair2007
 // @match        https://x.com/*
 // @match        https://mobile.x.com/*
+// @match        https://twitter.com/*
+// @match        https://mobile.twitter.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=twitter.com
 // @grant        none
 // @license      MIT
@@ -23,7 +25,7 @@ function markVerifiedContainers() {
                 container.getAttribute('data-testid')?.match(/^(tweet|cellInnerDiv|UserCell|UserAvatar|TypeaheadUser|UserProfileHeader_Items|reply|QuoteTweet)$/i);
 
             if (isTargetContainer) {
-                container.style.backgroundColor = 'rgba(255, 0, 0, 0.6)';
+                container.style.backgroundColor = 'rgba(29, 155, 240, 0.4)';
                 container.style.transition = 'background-color 0.2s ease';
                 break;
             }
