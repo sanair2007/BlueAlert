@@ -10,7 +10,7 @@
 // @match        https://mobile.twitter.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=twitter.com
 // @grant        none
-// @license      MIT
+// @license      GPL-3.0-only
 // @downloadURL https://update.greasyfork.org/scripts/534596/BlueAlert%20for%20Xcom.user.js
 // @updateURL https://update.greasyfork.org/scripts/534596/BlueAlert%20for%20Xcom.meta.js
 // ==/UserScript==
