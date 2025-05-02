@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BlueAlert for X.com
 // @namespace    https://github.com/sanair2007/BlueAlert/
-// @version      1.6
+// @version      1.6.1
 // @description  Script to mark verified X.com users (blue ticks) and to blur their posts to save your sanity. 
 // @author       sanair2007
 // @match        https://x.com/*
@@ -28,7 +28,7 @@ function markVerifiedContainers() {
 
             if (isTargetContainer) {
                 container.style.backgroundColor = 'rgba(29, 155, 240, 0.4)';
-                container.style.filter = 'blur(1px)';
+                container.style.filter = 'blur(2px)';
                 container.style.transition = 'background-color 0.2s ease, filter 0.2s ease';
                 break;
             }
