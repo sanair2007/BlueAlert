@@ -28,7 +28,7 @@ function markVerifiedContainers() {
 
             if (isTargetContainer) {
                 container.style.backgroundColor = 'rgba(29, 155, 240, 0.4)';
-                container.style.filter = 'blur(5px)';
+                container.style.filter = 'blur(1px)';
                 container.style.transition = 'background-color 0.2s ease, filter 0.2s ease';
                 break;
             }
