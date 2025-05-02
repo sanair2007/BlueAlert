@@ -1,2 +1,4 @@
 # BlueAlert for X.com
-Clearly highlight any content from verified (blue tick) accounts on Twitter/X — tweets, replies, QRTs, suggestions, etc. — with a solid blue background.
+Script to mark verified X.com users (blue ticks) and to blur their posts to save your sanity.
+
+by sanair2007
