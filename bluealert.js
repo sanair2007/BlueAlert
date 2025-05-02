@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BlueAlert for X.com
 // @namespace    https://github.com/sanair2007/BlueAlert/
-// @version      1.5
+// @version      1.6
 // @description  Script to mark verified X.com users (blue ticks) and to blur their posts to save your sanity. 
 // @author       sanair2007
 // @match        https://x.com/*
