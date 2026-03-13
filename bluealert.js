@@ -2,7 +2,7 @@
 // @name         BlueAlert for X.com
 // @namespace    https://github.com/sanair2007/BlueAlert/
 // @version      1.7
-// @description  Script to mark verified X.com users (blue ticks) and to blur their posts to save your sanity. 
+// @description  Script to mark verified X.com users (blue ticks) and to blur their posts. 
 // @author       sanair2007
 // @match        https://x.com/*
 // @match        https://mobile.x.com/*
